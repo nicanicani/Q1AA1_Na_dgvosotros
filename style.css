@@ -122,21 +122,25 @@
     color: #fff9f2;
     text-shadow: 4px 1px #281e17;
     top: 10%;
+    bottom: 10%;
     left: 5%;
 }
-
+.gallery sup{
+    font-size: 25px;
+}
 .pics img{
     opacity: .5;
     transition: 0.2s;
     margin: 20px;
     width: 12%;
     border: 10px outset#718355;
+    position: relative;
+    display: inline-block;
 }
 .pics img:hover{
     opacity: 1;
     transition: 0.4s;
-    transform: scale(1.2);
-    height: larger;
+    transform: scale(1.4);
 }
 .gallery .pics{
     margin-top: 8em;
