@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alice&family=Annie+Use+Your+Telescope&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+    background-color: #87986a;
+}
+.logo img{
+    border: 2px solid #a3b18a;
+    margin-top: -.8vh;
+    border-radius: 360px;
+    height: 45px;
+    margin-left: 10vh;
+}
+.navbar #links{
+    display: inline;
+}
+.navbar #links a{
+    font-family: 'Aladin', cursive;
+    background-color: #a3b18a;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.navbar #links #Gallery{
+    margin-right: 10vh;
+}
+.banner{
+    background-image: url(Goal\ 3\ To\ more\ l.png);
+    padding: 1.5vw;
+    background-color: antiquewhite;
+    height: 93.6vh;
+    width: 97vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-family: 'Aladin', cursive;
+    color: #b5c99a;
+    font-size: 4.3em;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #31572c;
+    text-align: left;
+}
+.banner h1 span{
+    color: #718355;
+}
+.banner p{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 1.5em;
+    color: #132a13;
+    text-shadow: 1px 1px #cfe1b9;
+    padding-bottom: 15px;
+}
+.banner a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+    text-align: left;
+}
+.banner #gaur{
+    font-family: 'Aladin', cursive;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #87986a; 
+    color: #e9f5db;
+    text-shadow: 1px 2px #718355;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e6c47;
+    color: white;
+    text-align: left;
+}
+.footer p{
+    font-family: 'Alice', serif;
+    color: #B5C99A;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.footer .footerlinks a{ 
+    text-decoration: none;
+    float: right;
+}
+.footer .footerlinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 2.5px;
+    margin-bottom: 15px;
+}
+.footer .footerlinks .fb{
+    margin-right: 25px;
+}
+.gallery{
+    padding: 1.5vw;
+    width: 95vw;
+    height: 93vh;
+    background-position: center;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.gallery h1{
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Alice', serif;
+    color: #fff9f2;
+    text-shadow: 4px 1px #281e17;
+    top: 10%;
+    left: 5%;
+}
+
+.pics img{
+    opacity: .5;
+    transition: 0.2s;
+    margin: 20px;
+    width: 12%;
+    border: 10px outset#718355;
+}
+.pics img:hover{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.2);
+    height: larger;
+}
+.gallery .pics{
+    margin-top: 8em;
+}
